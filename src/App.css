@@ -1,22 +1,61 @@
-.App {
+body {
+  background: rgb(0, 202, 166) !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+header {
+  padding: 4em 0;
+  margin-bottom: 3em;
+  background: rgb(7, 86, 77) !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+header > h1 {
+  font-size: calc(1vw + 3.6em); 
+  font-family: Literata; 
+  color: rgb(124, 231, 216)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main {
+  background: rgb(0, 202, 166);
 }
 
-.App-link {
-  color: #09d3ac;
+.article {
+  font-family: "Literata";
+  padding-bottom: 2em
+}
+
+.articleHeader {
+   cursor: pointer;
+   margin-bottom: 2em;
+   padding: 1em;
+   border-bottom: 1px solid rgb(124, 231, 216)
+}
+.articleHeader > h4 {
+  color: rgb(7, 86, 77);
+  font-weight: 600;
+  font-Size: calc(1vw + 1.6em)
+
+}
+
+span.puce {
+  color: rgb(38, 167, 149)
+}
+
+span.date{
+  color: rgb(163, 240, 230);
+  font-size: .6em;
+  margin: 0 1em
+}
+
+.accordion {
+  display: block;
+  margin: 2em
+}
+.accordion > div > p {
+  text-align: justify;
+  font-size: calc(1vw + .8em);
+  color: white
 }
