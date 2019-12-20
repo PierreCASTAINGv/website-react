@@ -2,7 +2,7 @@ body {
   background: rgb(0, 202, 166) !important;
 }
 
-.no-padding {
+.no-padding, .container-xl {
   padding: 0 !important;
 }
 
