@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css'
 import Header  from './component/header';
 import Article from './component/article';
 import GoogleFontLoader from 'react-google-font-loader';
