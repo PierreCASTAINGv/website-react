@@ -2,8 +2,9 @@ body {
   background: rgb(0, 202, 166) !important;
 }
 
-.no-padding, .container-xl {
-  padding: 0 !important;
+.no-padding, .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 header {
