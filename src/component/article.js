@@ -11,9 +11,9 @@ const Article = ({ date, titre, texte }) => {
                     className="articleHeader"
                     onClick={Toggle}
                     >
-                    <h4>
                     <span role="img" aria-label="" className="puce">📌</span>
                     <span className="date">{ date }</span>
+                    <h4>
                     { titre }
                     </h4>
                     </div>

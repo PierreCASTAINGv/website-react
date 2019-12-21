@@ -12,11 +12,13 @@ header {
   margin-bottom: 3em;
   background: rgb(7, 86, 77) !important;
   text-align: center;
+  box-shadow: 2px 2px 8px rgb(6, 92, 82);
 }
 header > h1 {
   font-size: calc(1vw + 3.6em); 
   font-family: Literata; 
-  color: rgb(124, 231, 216)
+  color: rgb(124, 231, 216);
+  text-shadow: 1px 3px 2px rgb(4, 59, 52);
 }
 
 .main {
@@ -38,16 +40,17 @@ header > h1 {
   color: rgb(7, 86, 77);
   font-weight: 600;
   font-Size: calc(1vw + 1.6em)
-
 }
 
 span.puce {
-  color: rgb(38, 167, 149)
+  color: rgb(38, 167, 149);
+  font-size: 2.2em;
+  font-weight: 600
 }
 
 span.date{
   color: rgb(163, 240, 230);
-  font-size: .6em;
+  font-size: 1.6em;
   margin: 0 1em
 }
 
