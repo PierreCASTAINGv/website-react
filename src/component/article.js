@@ -1,15 +1,16 @@
 import React from 'react';
-import { Toggle } from './utils/toggle';
+import { handleToggle } from './utils/toggle';
+
 
 const Article = ({ date, titre, texte }) => {
 
     return (  
-            
-            <div className="article">
+        
+        <div className="article">
 
                     <div
                     className="articleHeader"
-                    onClick={Toggle}
+                    onClick={handleToggle}
                     >
                     <span role="img" aria-label="" className="puce">📌</span>
                     <span className="date">{ date }</span>

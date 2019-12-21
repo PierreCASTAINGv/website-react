@@ -11,14 +11,20 @@ header {
   padding: 4em 0;
   margin-bottom: 3em;
   background: rgb(7, 86, 77) !important;
+  font-family: Literata; 
   text-align: center;
   box-shadow: 2px 2px 8px rgb(6, 92, 82);
 }
 header > h1 {
   font-size: calc(1vw + 3.6em); 
-  font-family: Literata; 
   color: rgb(124, 231, 216);
-  text-shadow: 1px 3px 2px rgb(4, 59, 52);
+  text-shadow: 1px 3px 2px rgb(4, 59, 52)
+}
+
+header > p {
+  font-size: calc(1vw + 1.1em); 
+  color: rgb(218, 247, 243);
+  text-shadow: 1px 3px 2px rgb(4, 59, 52)
 }
 
 .main {
@@ -55,7 +61,7 @@ span.date{
 }
 
 .accordion {
-  display: block;
+  display: none;
   margin: 2em
 }
 .accordion > div > p {

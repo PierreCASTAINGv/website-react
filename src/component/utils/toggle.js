@@ -1,8 +1,8 @@
-export function Toggle(e) {
-        e.preventDefault();
-        let getdisplay = document.querySelector('.accordion').style.display;
-        //console.log(getdisplay);
-        if(getdisplay === "none") document.querySelector('.accordion').style.display = "block"
-        else document.querySelector('.accordion').style.display = "none";
-       
+export function handleToggle(elt) {
+
+        const classAccordion = elt.target.parentElement.nextElementSibling;
+
+        if(classAccordion.style.display === '' || classAccordion.style.display === 'none') classAccordion.style.display = 'block'
+
+        else classAccordion.style.display = 'none'
 }
