@@ -27,7 +27,7 @@ class App extends Component {
 
             <div className="container-fluid .no-padding">
 
-              <GoogleFontLoader fonts = { [{ font: 'Literata'}, {font: 'Roboto'}] } />
+              <GoogleFontLoader fonts = { [{ font: 'Literata'}] } />
 
                <Header />
     
