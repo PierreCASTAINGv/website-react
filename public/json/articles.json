@@ -1,6 +1,14 @@
 [
     {
         "id": "1",
+        "date": "26 déc 2019",
+        "titre": "L'aventure n'est belle que dans les livres",
+        "texte": ["\"L’aventure n’est belle que dans les livres. La littérature (principalement anglo-saxonne - rapport à l’empire maritime) l’a esthétisée et conventionnée : lanterne sourde, tempête, falaise et naufrageurs, contrebandiers sous la lune, trésor, île… autant de motifs un peu clandestins où se prend, en effet, l’imagination.\"","- Arnaud Bordes -"],
+        "img": "",
+        "rubrique": ""
+    },
+    {
+        "id": "2",
         "date": "10 déc 2019",
         "titre": "L'image dans le tapis - Henry James",
         "texte": ["\"Le romancier est une fenêtre particulière, dans l'absolu, et n'a de valeur que dans la mesure où il en est une. L'art n'est en réalité qu'un point de vue et le génie seulement une façon de regarder les choses.\"","\"Jusqu'à ce que le monde devienne un vide inhabité, il y aura une image dans le miroir.\"","- Henry James -"],
@@ -8,42 +16,42 @@
         "rubrique": ""
     },
     {
-        "id": "2",
+        "id": "3",
         "date": "02 nov. 2019",
         "titre": "L'insoutenable légèreté de l'être",
-        "texte": ["On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique.", "Comme est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction"],
-        "img": "",
-        "rubrique": ""
-    },
-    {
-        "id": "3",
-        "date": "18 oct. 2019",
-        "titre": "Sous les ifs noirs qui les abritent",
-        "texte": ["Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.", "Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique."],
+        "texte": ["\"Avec son air de cavalier chinois, Morand est l’amant français idéal, aux antipodes du parvenu en limousine ou de l’empoté exotique. Il a l’électricité jazzée de Crébillon fils. Même brefs, les écrivains sont toujours trop lents, pathétiques. Qu’est-ce qui excite une femme ? Lisez Céleste Julie ! Comment peut-on être le même homme en étant décrit de façon si contradictoire par trois femmes ? Réponse dans La Glace à trois faces. Que dire, pendant un dîner, à la femme qui aime la même femme que vous ? Leçon dans Les Amis nouveaux.\"","- Philippe Sollers -"],
         "img": "",
         "rubrique": ""
     },
     {
         "id": "4",
-        "date": "11 août 2019",
-        "titre": "Les hibous se tiennent rangés",
-        "texte": ["Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.", "Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié."],
+        "date": "18 oct. 2019",
+        "titre": "Sous les ifs noirs qui les abritent",
+        "texte": ["Éloge de la marquise de Beausemblant : «Je suis une mer fameuse en naufrages : passion, folie, drames, tout y est, mais tout est caché.»"],
         "img": "",
         "rubrique": ""
     },
     {
         "id": "5",
-        "date": "24 juin 2019",
-        "titre": "Ainsi que des dieux étrangers",
-        "texte": ["Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.", "Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié."],
+        "date": "11 août 2019",
+        "titre": "Les hibous se tiennent rangés",
+        "texte": ["\"Ainsi il va, il court, il cherche. Que cherche-t-il ? À coup sûr, cet homme, tel que je l’ai dépeint, ce solitaire doué d’une imagination active, toujours voyageant à travers le grand désert d’hommes, a un but plus élevé que celui d’un pur flâneur, un but plus général, autre que le plaisir fugitif de la circonstance. Il cherche ce quelque chose qu’on nous permettra d’appeler la modernité ; car il ne se présente pas de meilleur mot pour exprimer l’idée en question. Il s’agit, pour lui, de dégager de la mode ce qu’elle peut contenir de poétique dans l’historique, de tirer l’éternel du transitoire.\"","- Charles Baudelaire -"],
         "img": "",
         "rubrique": ""
     },
     {
         "id": "6",
+        "date": "24 juin 2019",
+        "titre": "Ainsi que des dieux étrangers",
+        "texte": ["Il est le fils du haut fonctionnaire et artiste Eugène Morand (1853-1930). Après des études à l'École libre des Sciences politiques, il fut reçu en 1913 premier au grand concours des ambassades, et embrassa une carrière de diplomate.","Sa carrière diplomatique est allée de pair avec une carrière littéraire très féconde : son œuvre compte une centaine de romans, nouvelles, portraits de villes et chroniques. Il fréquente les milieux politiques, diplomatiques, mondains, et se lie avec Proust, Cocteau, Misia Sert, avec lesquels il partage le goût des soupers fins et la passion de la littérature."],
+        "img": "",
+        "rubrique": ""
+    },
+    {
+        "id": "7",
         "date": "30 avril 2019",
         "titre": "Sous les arbres, au-dessus du fleuve",
-        "texte": ["Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.", "Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié."],
+        "texte": ["\"Mais la vérité n'est pas une fille qui saute au cou de qui ne la désire pas ; c'est plutôt une fière beauté, à qui l'on peut tout sacrifier, sans être assuré pour cela de la moindre faveur.\"","- Arthur Shopenhauer -"],
         "img": "",
         "rubrique": ""
     }
