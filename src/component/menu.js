@@ -1,85 +1,62 @@
-import React, { Component } from 'react';
-import {
-    BrowserRouter,
-    Route,
-    Link
-} from 'react-router-dom';
-import FetchArticle from './article';
+import React from 'react';
+import { handleNbre } from './utils/toggle';
+//import { handleToggle } from './utils/toggle';
 
-class App extends Component {
+const Article = ({ date, titre, texte }) => {
 
-        render() {
+    return (  
+        
+        <div className="article">
 
-                return (
+            <div
+            data-toggle="modal"
+            data-target="#targetModal"
+            className="articleHeader"
+            //onClick={handleToggle}
+            onClick={handleNbre}
+            >
+                <span role="img" aria-label="pictogramme" className="puce">📌</span>
+                <span className="date">{ date }</span>
+                <h4>{ titre }</h4>
+            </div>
 
-                        <BrowserRouter>
-                
-                        <ul style={{ marginBottom: "2em", fontSize: "1.2rem" }} class="nav justify-content-center">
-                                <li class="nav-item">
-                                {/* <a class="nav-link" href="#">Accueil</a> */}
-                                <Link className="nav-link" to="/">Accueil</Link>
-                                </li>
-                                <li class="nav-item">
-                                {/* <a class="nav-link" href="#">Code</a> */}
-                                <Link className="nav-link" to="/code">Code</Link>
-                                </li>
-                                <li class="nav-item">
-                                {/* <a class="nav-link" href="#">Blog</a> */}
-                                <Link className="nav-link" to="/blog">Blog</Link>
-                                </li>
-                                <li class="nav-item">
-                                {/* <a class="nav-link" href="#">Contact</a> */}
-                                <Link className="nav-link" to="/contact">Contatct</Link>
-                                </li>
-                        </ul>
+            <div 
+            className="modal fade" 
+            id="targetModal" 
+            //tabindex="-1" 
+            //role="dialog" 
+            //aria-labelledby="modalLabelLarge"
+            aria-hidden="true"
+            >
+                <div className="modal-dialog modal-xl">
 
-                        <hr />
-                        <div>
-                                <Route exact path="/" Component={ Accueil } />
-                                <Route path="/code" component={ Code } />
-                                <Route path="/blog" component={ Blog } />
-                                <Route path="/contact" component={ Contact } />       
+                        <div
+                        className="modal-content"
+                        >
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                            {/* <span className="badge badge-secondary" aria-hidden="true">&times;</span> */}
+                            </button>
+
+                            <div
+                            className="modal-body"
+                            style={{ textAlign: 'center' }}
+                            >
+                            {texte.map((c, index) => 
+                                <p
+                                key={index} 
+                                >
+                                {c}
+                                </p>
+                                )}
+                                 <button style={{ marginBottom: '1em', width: '6em'}} type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
 
-                        </BrowserRouter>
-
-                );        
-        }
-}
-
-class Accueil extends Component {
-
-        render() {
+                </div>
                 
-                return (
+            </div>
+        </div>
+    );
+};
 
-                        <div className="container-fluid">
-                        <Header />   
-                        <FetchArticle />
-                      </div>
-                );
-
-        }
-}
-
-class Code extends Component {
-
-        render() {
-                
-                return (
-
-                        <div className="container-fluid">
-                                 <Header /> 
-                                        <div className="row">
-                                                 <div className="col-sm-12 col-md-6 col-lg-6">
-                                                 <h2>Code</h2>
-                                                </div>
-                                         </div>  
-                      </div>
-                );
-
-        }
-}
-
-
-export default App;
+export default Article;

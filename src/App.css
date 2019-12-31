@@ -1,5 +1,9 @@
+button {
+  outline: 0 !important;
+}
 body {
   background: rgb(0, 202, 166) !important;
+  margin: 0;
 }
 
 .no-padding, .container-fluid {
@@ -8,20 +12,22 @@ body {
 }
 
 header {
-  padding: 4em 0;
-  margin-bottom: 3em;
+  padding: .1em 0;
+  margin-bottom: 2em;
   background: rgb(7, 86, 77) !important;
   font-family: Literata; 
   text-align: center;
   box-shadow: 2px 2px 8px rgb(6, 92, 82);
 }
 header > h1 {
-  font-size: calc(1vw + 3.6em); 
+  margin: .5em 0 .3em 0;
+  font-size: calc(1vw + 3.2em); 
   color: rgb(124, 231, 216);
   text-shadow: 1px 3px 2px rgb(4, 59, 52)
 }
 
 header > p {
+  margin: 0 0 1.7em 0;
   font-size: calc(1vw + 1.1em); 
   color: rgb(218, 247, 243);
   text-shadow: 1px 3px 2px rgb(4, 59, 52)
@@ -32,20 +38,19 @@ header > p {
 }
 
 .article {
-  font-family: "Literata";
-  padding-bottom: 2em
+  font-family: "Literata"
 }
 
 .articleHeader {
    cursor: pointer;
-   margin-bottom: 2em;
    padding: 1em;
    border-bottom: 1px solid rgb(124, 231, 216)
 }
 .articleHeader > h4 {
+  margin: .1em 0 .1em 0;
   color: rgb(7, 86, 77);
   font-weight: 600;
-  font-Size: calc(1vw + 1.6em)
+  font-Size: calc(1vw + 1.3em)
 }
 
 span.puce {
@@ -56,7 +61,7 @@ span.puce {
 
 span.date{
   color: rgb(163, 240, 230);
-  font-size: 1.6em;
+  font-size: calc(1vw + .8em);
   margin: 0 1em
 }
 
@@ -69,3 +74,11 @@ span.date{
   font-size: calc(1vw + .8em);
   color: white
 }
+.accordion > div + div > button {
+  font-size: 1em;
+  color: whitesmoke
+}
+/* .modal-body > p {
+  font-size: calc(1vw + .8em);
+  color: rgb(7, 86, 77)
+} */

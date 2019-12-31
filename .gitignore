@@ -24,3 +24,7 @@ yarn-error.log*
 
 # perso
 /src/App.js.sauv
+/src/App.test.js
+/src/component/article.js.modal
+/src/component/menu.js
+

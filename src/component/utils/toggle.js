@@ -2,8 +2,7 @@ export function handleToggle(elt) {
         
         const classAccordion = elt.target.parentElement.nextElementSibling;
 
-        if(classAccordion.style.display === '' || classAccordion.style.display === 'none') { 
-
+        if(classAccordion.style.display === '' || classAccordion.style.display === 'none') {
                 let c = 0;
                 const list = document.querySelectorAll('.accordion');
                 for (c of list) {

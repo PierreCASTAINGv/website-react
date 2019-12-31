@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header  from './component/header';
 import Article from './component/article';
 import GoogleFontLoader from 'react-google-font-loader';
+import Grid from '@material-ui/core/Grid';
+
 
 class App extends Component {
 
@@ -10,7 +12,7 @@ class App extends Component {
         };
         
           componentDidMount() {
-            
+
             fetch("./json/articles.json", {
                 mode: 'no-cors'
             }) 
@@ -25,17 +27,19 @@ class App extends Component {
       
           return (
 
-            <div className="container-fluid .no-padding">
+            <div className="container">
 
               <GoogleFontLoader fonts = { [{ font: 'Literata', weights: [400, 600] }] } />
 
                <Header />
     
-              <div className="container main">
-                <div className="row"> 
-
-                  <div className="col-12">
-                  
+              <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="flex-start"
+              >
+                <Grid item xs={12} sm={10} md={8} lg={8} xl={6}>      
                   {this.state.data.map(
                   ({ id, date, titre, texte }) => (
                       <Article
@@ -47,10 +51,8 @@ class App extends Component {
                       </Article>
                     )
                   )}
-
-                  </div>
-                </div>
-              </div>
+                </Grid>
+              </Grid>
             </div>
           );
       }
