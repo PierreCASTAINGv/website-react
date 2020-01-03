@@ -16,6 +16,10 @@ const theme = createMuiTheme({
 
 const Article = ({ date, titre, texte }) => {
 
+    const handleAlert = () => {
+        alert('ici bientôt... \nen attendant meilleurs voeux pour 2020');
+    }
+
     return (  
         
         <div className="article">
@@ -45,7 +49,7 @@ const Article = ({ date, titre, texte }) => {
 
                 <div>
                     <ThemeProvider theme={theme}>
-                    <Button style={{ textTransform: 'none' }} variant="contained" color="primary" size="small">en savoir +</Button>
+                    <Button onClick={handleAlert} style={{ textTransform: 'none' }} variant="contained" color="primary" size="small">en savoir +</Button>
                     </ThemeProvider>
                 </div>
             </div>
